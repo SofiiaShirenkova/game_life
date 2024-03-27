@@ -1,0 +1,71 @@
+<canvas id="canvasLife"></canvas>
+
+
+
+<style>
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#canvasLife{
+    width: 100%;
+    height: 100%;
+}
+
+#buttons{
+    width: 13vw;
+    height: 53vw;
+    margin-left: 82%;
+    margin-top: -54.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#playId{
+    width: 95%;
+}
+
+#stopId {
+    width: 95%;
+}
+
+#randomId{
+    width: 95%;
+}
+
+#clearId{
+    width: 95%;
+}
+
+#close3{
+    margin-left: 96%;
+    margin-top: -53%;
+}
+
+#studyLife{
+    width: 66vw;
+    display: flex;
+    position: fixed;
+    margin-top: -42%;
+    margin-left: 13%;
+}
+
+#studyLifeId {
+    width: 110%;
+}
+</style>
+
+<div id="studyLife"><img src="./img/studyLifeWindow.svg" id="studyLifeId"></div>
+
+<div id="buttons">
+    <div id="playB" onclick="PB()"><img src="img/play.svg" id="playId"></div>
+    <div id="stopB" onclick="SB()"><img src="img/stop.svg" id="stopId"></div>
+    <div id="randomB" onclick="RB()"><img src="img/random.svg" id="randomId"></div>
+    <div id="clearB" onclick="CB()"><img src="img/restart.svg" id="clearId"></div>
+</div>
+
+<div id="close3"><img src="img/close4.svg"></div>
+
+<script src="index.js"></script>
